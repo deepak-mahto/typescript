@@ -69,3 +69,11 @@ class Person {
 }
 const person1 = new Person(1, "deepak");
 const person2 = new Person(2, "thomas");
+// Extending classes (Subclasses)
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp1 = new Employee(1, "deepak", "Developer");
