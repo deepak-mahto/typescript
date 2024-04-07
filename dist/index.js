@@ -77,3 +77,9 @@ class Employee extends Person {
     }
 }
 const emp1 = new Employee(1, "deepak", "Developer");
+// Generics - used to build reusable components
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3, 4]);
+let strArray = getArray(["deepak", "chuck", "thomas", "winston"]);
