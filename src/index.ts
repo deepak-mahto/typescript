@@ -1,3 +1,5 @@
+// Basic types
 let id: number = 5;
-
-console.log("ID:", id);
+let company: string = "Apple";
+let isPublished: boolean = true;
+let x: any = "any type";

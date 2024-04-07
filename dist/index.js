@@ -1,3 +1,6 @@
 "use strict";
+// Basic types
 let id = 5;
-console.log("ID:", id);
+let company = "Apple";
+let isPublished = true;
+let x = "any type";
