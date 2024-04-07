@@ -91,9 +91,16 @@ const add: MathFunc = (x: number, y: number): number => x + y;
 
 const sub: MathFunc = (x: number, y: number): number => x - y;
 
+// Implement Interface in class
+interface PersonInterface {
+  id: number;
+  name: string;
+  register(): string;
+}
+
 // Classes
-class Person {
-  private id: number; // this property is private and can only be accessible within the class
+class Person implements PersonInterface {
+  id: number; // this property is private and can only be accessible within the class
   name: string;
 
   constructor(id: number, name: string) {
@@ -107,5 +114,3 @@ class Person {
 
 const person1 = new Person(1, "deepak");
 const person2 = new Person(2, "thomas");
-
-console.log(person1.register());

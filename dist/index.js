@@ -69,4 +69,3 @@ class Person {
 }
 const person1 = new Person(1, "deepak");
 const person2 = new Person(2, "thomas");
-console.log(person1.register());
