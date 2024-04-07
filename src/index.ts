@@ -81,3 +81,12 @@ const user1: UserInterface = {
 };
 
 // user1.id = 4; // Cannot assign to 'id' because it is a read-only property
+
+// Function Interface
+interface MathFunc {
+  (x: number, y: number): number;
+}
+
+const add: MathFunc = (x: number, y: number): number => x + y;
+
+const sub: MathFunc = (x: number, y: number): number => x - y;

@@ -55,4 +55,5 @@ const user1 = {
     id: 1,
     name: "John",
 };
-// user1.id = 4; // Cannot assign to 'id' because it is a read-only property
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
