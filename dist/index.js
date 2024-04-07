@@ -43,3 +43,11 @@ const user = {
 let cid = 1;
 // let customerId = <number>cid;
 // let customerId = cid as number; // another way
+// Functions
+function addNum(x, y) {
+    return x + y;
+}
+// Void
+function log(message) {
+    console.log(message);
+}
