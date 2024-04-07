@@ -67,3 +67,17 @@ function addNum(x: number, y: number): number {
 function log(message: string | number): void {
   console.log(message);
 }
+
+// Interfaces
+interface UserInterface {
+  readonly id: number; // by default read/write
+  name: string;
+  age?: number; // Optional
+}
+
+const user1: UserInterface = {
+  id: 1,
+  name: "John",
+};
+
+// user1.id = 4; // Cannot assign to 'id' because it is a read-only property

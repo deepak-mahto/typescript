@@ -51,3 +51,8 @@ function addNum(x, y) {
 function log(message) {
     console.log(message);
 }
+const user1 = {
+    id: 1,
+    name: "John",
+};
+// user1.id = 4; // Cannot assign to 'id' because it is a read-only property
